@@ -4,7 +4,8 @@ let attampt = 1;
 let notify = document.getElementById("notify");
 let points = 0;
 let gameOver = false;
-
+let userName = prompt("whats your name?");
+document.getElementById("userName").innerHTML = userName;
 
 
 document.getElementById("btn").addEventListener("click", function () {
@@ -30,31 +31,29 @@ function checkLogic() {
 
     if (usersGuess > number) {
         attampt++;
-        notify.innerHTML = "The number is lower than you thought";
+        alert("The number is lower than you thought");
         setTimeout(function () {
             notify.innerHTML = "";
-        }, 3000)
+        }, 4000)
 
 
 
 
     } else if (usersGuess < number) {
         attampt++;
-        notify.innerHTML = "The number is higher than you thought";
+        alert("The number is higher than you thought");
         setTimeout(function () {
             notify.innerHTML = "";
 
-        }, 3000)
+        }, 4000)
 
 
 
 
     } else {
         alert("Congratulation you have guessed the number correct in " + attampt + " attampt ");
-        if (confirm("Do you want to Play Again?")) {
-            checkPoints();
-            playAgain();
-        }
+        checkPoints();
+        playAgain();
     }
 
 }

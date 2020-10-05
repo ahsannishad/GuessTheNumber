@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #2ec194;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #f4f9f4;
+}
+
+.points {
+    margin-bottom: 20px;
+    color: #f4f9f4;
+    display: inline-block;
+
+
+
+}
+
+.points-div {
+    position: relative;
+    bottom: 20px;
+    left: 100px;
+    display: inline-block;
+
+}
+
+.userName-div {
+    position: relative;
+    bottom: 20px;
+    right: 100px;
+    display: inline-block;
+
+}
+
+.userName {
+    margin-bottom: 20px;
+    color: #f4f9f4;
+    display: inline-block;
+}
+
+#notify {
+    margin-bottom: 20px;
+    color: #f4f9f4;
+}
+
+input {
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 125px;
+    right: 125px;
+    color: #5c8d89;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 50px;
+    border-color: #5c8d89;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+button {
+    color: #f4f9f4;
+    background-color: #74b49b;
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    border-color: white;
+    border-radius: 5px;
+    margin-bottom: 80px;
+    box-shadow: 2px 2px #ffff;
+}
+
+.main {
+    background-color: #2ec194;
+    width: 500px;
+    position: absolute;
+    left: 32%;
+    top: 25%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.2),
+        15px 15px 15px rgba(0, 0, 0, 0.1),
+        inset -5px -5px 5px rgba(255, 255, 255, 0.2),
+        inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.points {
+    display: inline-block;
+}
